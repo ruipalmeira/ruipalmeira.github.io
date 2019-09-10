@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="pt">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+    <title>Atlanticare - Serviços de Saúde S.A.</title>
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="css/960.css" type="text/css" />
+	<!--<link rel="stylesheet" href="css/text.css" type="text/css" />-->
+	<link rel="stylesheet" href="css/style_1.css" type="text/css" />	
+    <script type="text/javascript">
+			function clearDefault(el) {
+			if (el.defaultValue==el.value) el.value = ""
+		}
+	
+		function returnMe(formfield){
+			if (formfield.value=="")
+				formfield.value = formfield.defaultValue
+		} 
+
+		function getCurrentLinkFrom(links){
+
+	    var curPage = document.URL;
+	    curPage = curPage.substr(curPage.lastIndexOf("/")) ;
+
+	    links.each(function(){
+	        var linkPage = $(this).attr("href");
+	        linkPage = linkPage.substr(linkPage.lastIndexOf("/"));
+	        if (curPage == linkPage){
+	            return $(this);
+	        }
+	    });
+	    $(document).ready(function(){
+	    var currentLink = getCurrentLinkFrom($("navbar a"));
+	    currentLink.addClass("current_link");
+		});
+		}
+	</script>
+</head>
+<body>
+	<div id="container" class="container_12">
+		<div id="header" class="grid_12">
+			<div id="logo_header"><a href="index.html"><img src="imagens/header/logo.png" alt="Atlanticare" /></a>
+				<div id="textHeader">Inovação em Serviços de Segurança<div>e Saúde no Trabalho</div></div>
+				<div id="areaReservada">
+    				<a href="http://careview.atlanticare.pt/ext/default.asp" target="_blank"><div id="botao_areaReservada"><p>Área Reservada</p>
+    				<img src="imagens/header/cadeado.png"/></div></a><br>
+    				<a href="resultados_pesquisa.html"><div id="botao_areaReservada"><p style="margin-right: 27px;">Pesquisar</p>
+    					<img style="width: 14px; height:14px; margin-top: 4px;" src="imagens/header/lupa.png"/></div></a>
+    			</div>		
+			</div>
+		</div>	
+	</div>
+
+	<div class="clearfix"></div>
+
+    	<div id="fundoMenu">
+		<div id="menu" class="container_12">
+				<div class="grid_12">
+					<ul id="navBar">
+					    <li><a href="index.html">HOME</a></li>
+					    <li><a href="#">ATLANTICARE</a>
+					    	<ul class="subLink">
+					    	  <li><a href="quem_somos.html">QUEM SOMOS</a></li>
+					    	  <li><a href="visaomissao.html">VISÃO E MISSÃO</a></li>
+					    	  <li><a href="politica_qualidade.html">POLÍTICA DA QUALIDADE</a></li>
+					    	</ul>
+					    </li>
+					    <li><a href="#">SERVIÇOS</a>
+							<ul class="subLink">
+			    		      <li><a href="saude_trabalho.html">SAÚDE NO TRABALHO</a></li>
+			    		      <li><a href="seguranca_trabalho.html">SEGURANÇA NO TRABALHO</a></li>
+			    		      <li><a href="ramovida.html">RAMO VIDA</a></li>
+			    		      <li><a href="checkup.html">CHECK-UP</a></li>
+			    		    </ul>
+			    		</li>
+					    <li><a href="#">CLÍNICAS ATLANTICARE</a>
+					    	<ul class="subLink">
+			    		      <li><a href="clinica_lisboa.html">CLÍNICA LISBOA</a></li>
+			    		      <li><a href="clinica_porto.html">CLÍNICA PORTO</a></li>
+			    		    </ul>
+			    		</li>
+					    <li><a href="rede_prestadores.html">REDE DE PRESTADORES</a></li>
+					    <li><a href="#">APOIO AO CLIENTE</a>
+					    	<ul class="subLink">
+			    		      <li><a href="plataforma_web.html">PLATAFORMA WEB</a></li>
+			    		      <li><a href="satisfacao_cliente.html">SATISFAÇÃO DO CLIENTE</a></li>
+			    		      <li><a href="gestor_cliente.html">GESTOR DE CLIENTE</a></li>
+			    		      <li><a href="legislacao.html">LEGISLAÇÃO ÚTIL</a></li>
+			    		      <!--<li><a href="#">PEDIDO DE INFORMAÇÕES</a></li>-->
+			    		    </ul>
+					    </li>
+					    <li><a href="noticias.php">NOTÍCIAS</a></li>
+					    <li><a href="contactos.html">CONTACTOS</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<div id="container" class="container_12">
+		  <!--CONTENT AREA-->
+		<div id="colunaEsqCheckUp" class="grid_3"> 
+			<h2>Consulte a <br>nossa oferta</h2>
+			<br/>			
+			<table>
+				<tr>
+					<td><img src="imagens/table/homem.png" alt="man"/></td>
+					<td align="center" valign="top">
+						<a href="#Homem40p"><img src="imagens/table/40plus.png" alt="" onmouseover="this.width='74'" onmouseout="this.width='70'"/></a>
+						<div><a href="#Homem40m"><img src="imagens/table/40minus.png" alt="" onmouseover="this.width='74'" onmouseout="this.width='70'"/></a><div>
+					</td>
+				</tr>
+				<tr>
+					<td><img src="imagens/table/senhora.png" alt="man"/></td>
+					<td align="center" valign="top">
+						<a href="#Mulher40p"><img src="imagens/table/40plus.png" alt="" onmouseover="this.width='74'" onmouseout="this.width='70'"/></a>
+						<div><a href="#Mulher40m"><img src="imagens/table/40minusW.png" alt="" onmouseover="this.width='74'" onmouseout="this.width='70'"/></a></div>
+					</td>
+				</tr>
+			</table>
+			<ul style="color:#7a7a7a;">
+				<br>
+			    <li>Check-up em função do sexo e idade dos utentes</li>
+			    <li>Check-up Executivo</li>
+			    <li>Check-up Profissional e Grupos de Risco</li>
+			    <li>Check-up dirigido por Áreas de Patologia</li>
+			</ul>
+        </div>
+	
+		<div id="colunaCheckUp" class="grid_6" align="justify">
+			<div id="CheckUp">
+			<h1>Check-Up</h1>
+			<br/>
+			<p><strong>Porque deve escolher a Atlanticare para ser o seu parceiro:</strong></p>
+			<ul>
+			    <li>Somos uma equipa de profissionais, com mais de 20 anos de experiência na gestão e realização de Check-Up's</li>
+			    <li>Para a sua comodidade todos os exames que compõem o check-up são realizados no mesmo local</li>
+			    <li>Prestamos serviços em todo o território nacional</li>
+			    <li>Possuímos um call center especializado na marcação de check-up's</li>
+			    <li>Garantimos elevados padrões de qualidade na prestação dos nossos serviços</li>
+			    <li>Somos uma empresa inovadora, disponibilizando sempre as soluções mais atuais e eficazes do mercado</li>
+			    <li>Fazemos uma gestão de clientes proativa e personalizada</li>
+			</ul>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			</div><!-- FINAL DO DIV CheckUP -->
+			
+			<div id="Homem40p">
+			<h1>Check-Up Homem 40+</h1>
+			<br/>
+			<table border="1">
+			<colgroup>
+			<col class="colEsq"/>
+			<col class="colDir"/>
+			</colgroup>
+			  <tr>
+			    <td><p><strong>Exame Médico</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Análises Clínicas</strong> - Hemograma, Plaquetas, Ureia, Ácido<br/>  Úrico,
+			    	Creatinina, Glicose, GOT, GPT, GGT, Colesterol<br/>  Total, Colesterol HDL, Triglicéridos, PSA, Urina II + Sedimento </p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Citologia Urinária</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Espirometria</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Rx Tórax</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Ecografia Vesico-Prostática</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>ECG com Prova de Esforço</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Rastreio Oftalmológico c/ VisionTest</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Entrevista Médica / Consulta de Aconselhamento</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			</table>	
+
+			<br />
+			<p>Este Check-up dirigido à Saúde do Homem, permite diagnosticar e detectar precocemente alterações ao bom funcionamento do organismo e identificar factores de risco, contribuindo de forma decisiva para a melhoria da saúde e Bem-Estar.</p> 
+			<p class="special">obs. Todos os Exames que constituem o Check-up são realizados durante o período da manhã e no mesmo local.</p>
+			<br><br><br><br><br><br><br><br><br>
+			</div><!-- FINAL DO DIV Homem40p -->
+			<div id="Homem40m">
+			<h1>Check-Up Homem 40 -</h1>
+			<br/>
+			<table border="1">
+			<colgroup>
+			<col class="colEsq"/>
+			<col class="colDir"/>
+			</colgroup>
+			  <tr>
+			    <td><p><strong>Exame Médico</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Análises Clínicas</strong> - Hemograma, Plaquetas, Ureia, Ácido<br/>  Úrico,
+			    	Creatinina, Glicose, GOT, GPT, GGT, Colesterol<br/>  Total, Colesterol HDL, Triglicéridos, Urina II + Sedimento </p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Espirometria</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Rx Tórax</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>ECG em Repouso</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Rastreio Oftalmológico c/ VisionTest</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Entrevista Médica / Consulta de Aconselhamento</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			</table>	
+
+			<br />
+			<p>Este Check-up dirigido à Saúde do Homem, permite diagnosticar e detectar precocemente alterações ao bom funcionamento do organismo e identificar factores de risco, contribuindo de forma decisiva para a melhoria da saúde e Bem-Estar.</p> 
+			<p class="special">obs. Todos os Exames que constituem o Check-up são realizados durante o período da manhã e no mesmo local.</p>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		</div><!-- FINAL DO DIV Homem40m -->
+		
+		<div id="Mulher40p">
+			<h1>Check-Up Mulher 40+</h1>
+			<br/>
+			<table border="1">
+			<colgroup>
+			<col class="colEsq"/>
+			<col class="colDir"/>
+			</colgroup>
+			<tr>
+			    <td><p><strong>Exame Médico</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Análises Clínicas</strong> - Hemograma, Plaquetas, Ureia, Ácido<br/>  Úrico,
+			    	Creatinina, Glicose, GOT, GPT, GGT, Colesterol<br/>  Total, Colesterol HDL, Triglicéridos, PSA, Urina II + Sedimento </p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Consulta Ginecologia</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Citologia Papanicolau</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Ecografia Pélvica</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Ecografia Mamária</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Mamografia</strong> (por indicação médica)</p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Doseamentos Hormonais</strong> (por indicação médica)</p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>ECG com Prova de Esforço</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Espirometria</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Rx Tórax</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Rastreio Oftalmológico c/ VisionTest</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Entrevista Médica / Consulta de Aconselhamento</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			</table>	
+
+			<br />
+			<p>Este Check-up dirigido à Saúde do Mulher, permite diagnosticar e detectar precocemente alterações ao bom funcionamento do organismo e identificar factores de risco, contribuindo de forma decisiva para a melhoria da saúde e Bem-Estar.</p> 
+			<p class="special">obs. Todos os Exames que constituem o Check-up são realizados durante o período da manhã e no mesmo local.</p>
+			<br><br><br><br><br><br><br><br><br><br><br><br>
+		</div><!-- FINAL DO DIV Mulher40p -->
+		
+		<div id="Mulher40m">
+			<h1>Check-Up Mulher 40 -</h1>
+			<br/>
+			<table border="1">
+			<colgroup>
+			<col class="colEsq"/>
+			<col class="colDir"/>
+			</colgroup>
+			  <tr>
+			    <td><p><strong>Exame Médico</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Análises Clínicas</strong> - Hemograma, Plaquetas, Ureia, Ácido<br/>  Úrico,
+			    	Creatinina, Glicose, GOT, GPT, GGT, Colesterol<br/>  Total, Colesterol HDL, Triglicéridos, PSA, Urina II + Sedimento </p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Consulta Ginecologia</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Citologia Papanicolau</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Ecografia Pélvica</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Ecografia Mamária</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>ECG em Repouso</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Espirometria</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Rx Tórax</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Rastreio Oftalmológico c/ VisionTest</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			  <tr>
+			    <td><p><strong>Entrevista Médica / Consulta de Aconselhamento</strong></p></td>
+			    <td><img src="imagens/table/check.png" alt="check"/></td>
+			  </tr>
+			</table>	
+
+			<br />
+			<p>Este Check-up dirigido à Saúde do Mulher, permite diagnosticar e detectar precocemente alterações ao bom funcionamento do organismo e identificar factores de risco, contribuindo de forma decisiva para a melhoria da saúde e Bem-Estar.</p> 
+			<p class="special">obs. Todos os Exames que constituem o Check-up são realizados durante o período da manhã e no mesmo local.</p>
+			<br><br><br><br><br><br><br><br><br><br>
+		</div><!-- FINAL DO DIV Mulher40m -->
+		
+	</div> <!-- FINAL DO DIV ColunaCheckUp -->
+		
+		
+    	<div id="colunaDir" class="grid_3">
+	  		<div id="bannersDireita">
+	  			<img src="imagens/conteudos/check_up.jpg" />
+	  		</div>
+    	</div>
+	</div>
+	<div class="clearfix"></div>
+	<br/>
+	<!-- FOOTER -->
+	<div id="footer-wrapper">
+		<div id="footer" class="container_12">
+			<div class="grid_2">
+				<a href="pedido_informacao.php"><img src="imagens/footer/proposta_.png" alt="proposta" onmouseover="this.src='imagens/footer/proposta_blue2.png'" onmouseout="this.src='imagens/footer/proposta_.png'"/></a>
+			</div>
+			<div class="grid_2">
+				<img src="imagens/footer/callus.png" alt="call us" />
+			</div>
+			<div class="grid_2">
+			  	<img src="imagens/footer/empresa_.png" alt="empresa" />
+			</div>
+		 	<div class="grid_1">
+			    <a href="http://www.sgs.com/certifiedclients" target="_blank"> <img src="imagens/footer/sgs.png" alt="SGS" /></a>
+			</div>
+			<div id="mail" class="grid_3">
+			    <blockquote>Subscrever Newsletter<img src="imagens/footer/mail.png" alt="Mail" class="mail"/></blockquote>
+			    <input type="email" name="email" value="e-mail"/>
+			    <span class="submit"><input type="image" src="imagens/footer/submit.png"/></span>
+			</div>				
+		</div>
+	</div>
+</body>
+</html>

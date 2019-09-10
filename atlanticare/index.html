@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+    <head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+        <title>Atlanticare - Serviços de Saúde S.A.</title>
+
+        <link rel="stylesheet" href="css/reset.css" type="text/css" />
+		<link rel="stylesheet" href="css/960.css" type="text/css" />
+		<!--<link rel="stylesheet" href="css/text.css" type="text/css" />-->
+		<link rel="stylesheet" href="css/style_1.css" type="text/css" />	
+        <link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+	    <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+	    
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+		
+		<!-- Arquivos utilizados pelo jQuery lightBox plugin -->
+    	<script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
+    	<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+    	<!-- / fim dos arquivos utilizados pelo jQuery lightBox plugin -->
+		<!-- Ativando o jQuery lightBox plugin -->
+    	<script type="text/javascript">
+		$(function() {
+			$('#gallery a').lightBox({fixedNavigation:true});
+		});
+  		</script>
+
+		
+        <!-- FlexSlider -->
+		<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+		<script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
+		<script type="text/javascript">
+		    $(window).load(function() {
+		        $('#slider').nivoSlider();
+		    });
+		</script>
+
+		<script type="text/javascript">
+  			function clearDefault(el) {
+				if (el.defaultValue==el.value) el.value = ""
+			}
+		
+			function returnMe(formfield){
+				if (formfield.value=="")
+					formfield.value = formfield.defaultValue
+			} 
+		</script>
+    </head>
+    <body style="background: #ffffff;">
+    	<div id="container" class="container_12">
+    		<div id="header" class="grid_12">
+				<div id="logo_header"><a href="index.html"><img src="imagens/header/logo.png" alt="Atlanticare" /></a>
+					<div id="textHeader">Inovação em Serviços de Segurança<div>e Saúde no Trabalho</div></div>
+    				<div id="areaReservada">
+	    				<a href="http://careview.atlanticare.pt/ext/default.asp" target="_blank"><div id="botao_areaReservada"><p>Área Reservada</p>
+	    				<img src="imagens/header/cadeado.png"/></div></a>
+                        <br>
+                        <a href="resultados_pesquisa.html"><div id="botao_areaReservada"><p style="margin-right: 27px;">Pesquisar</p>
+    					<img style="width: 14px; height:14px; margin-top: 4px;" src="imagens/header/lupa.png"/></div></a>
+	    			</div>		
+
+				</div>
+				
+    		</div>	
+    	</div>
+
+    	<div class="clearfix"></div>
+    	
+    	<div id="fundoMenu">
+		<div id="menu" class="container_12">
+				<div class="grid_12">
+					<ul id="navBar">
+					    <li><a href="index.html">HOME</a></li>
+					    <li><a href="#">ATLANTICARE</a>
+					    	<ul class="subLink">
+					    	  <li><a href="quem_somos.html">QUEM SOMOS</a></li>
+					    	  <li><a href="visaomissao.html">VISÃO E MISSÃO</a></li>
+					    	  <li><a href="politica_qualidade.html">POLÍTICA DA QUALIDADE</a></li>
+					    	</ul>
+					    </li>
+					    <li><a href="#">SERVIÇOS</a>
+							<ul class="subLink">
+			    		      <li><a href="saude_trabalho.html">SAÚDE NO TRABALHO</a></li>
+			    		      <li><a href="seguranca_trabalho.html">SEGURANÇA NO TRABALHO</a></li>
+			    		      <li><a href="ramovida.html">RAMO VIDA</a></li>
+			    		      <li><a href="checkup.html">CHECK-UP</a></li>
+			    		    </ul>
+			    		</li>
+					    <li><a href="#">CLÍNICAS ATLANTICARE</a>
+					    	<ul class="subLink">
+			    		      <li><a href="clinica_lisboa.html">CLÍNICA LISBOA</a></li>
+			    		      <li><a href="clinica_porto.html">CLÍNICA PORTO</a></li>
+			    		    </ul>
+			    		</li>
+					    <li><a href="rede_prestadores.html">REDE DE PRESTADORES</a></li>
+					    <li><a href="#">APOIO AO CLIENTE</a>
+					    	<ul class="subLink">
+			    		      <li><a href="plataforma_web.html">PLATAFORMA WEB</a></li>
+			    		      <li><a href="satisfacao_cliente.html">SATISFAÇÃO DO CLIENTE</a></li>
+			    		      <li><a href="gestor_cliente.html">GESTOR DE CLIENTE</a></li>
+			    		      <li><a href="legislacao.html">LEGISLAÇÃO ÚTIL</a></li>
+			    		    </ul>
+					    </li>
+					    <li><a href="noticias.php">NOTÍCIAS</a></li>
+					    <li><a href="contactos.html">CONTACTOS</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="container" class="container_12">
+			  <!--CONTENT AREA-->
+			<div id="colunaEsq" class="grid_8">
+
+				<div id="slider-wrapper" class="theme-default">
+	            	<div id="slider" class="nivoSlider">
+		                <a href="politica_qualidade.html"><img src="imagens/banners/1.jpg" alt="" data-transition="slideInLeft" /></a>
+		                <a href="quem_somos.html"><img src="imagens/banners/2.jpg" alt="" data-transition="slideInLeft" /></a>
+		                <a href="rede_prestadores.html"><img src="imagens/banners/3.jpg" alt="" data-transition="slideInLeft" /></a>
+		                <a href="saude_trabalho.html"><img src="imagens/banners/4.jpg" alt="" data-transition="slideInLeft" /></a>
+		                <a href="plataforma_web.html"><img src="imagens/banners/5.jpg" alt="" data-transition="slideInLeft" /></a>
+                        <a href="satisfacao_cliente.html"><img src="imagens/banners/6.jpg" alt="" data-transition="slideInLeft" /></a>
+                        <a href="gestor_cliente.html"><img src="imagens/banners/7.jpg" alt="" data-transition="slideInLeft" /></a>
+	           		</div>         
+        		</div>
+			</div>
+        	<div id="colunaDir" class="grid_4">
+		  		<div>
+		  			<h2>Em Destaque</h2>
+		  			<div id="flashContent">
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="298" height="300" id="banner" align="middle">
+				<param name="movie" value="banner.swf" />
+				<param name="quality" value="best" />
+				<param name="bgcolor" value="#ffffff" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="transparent" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="banner.swf" width="298" height="300">
+					<param name="movie" value="banner.swf" />
+					<param name="quality" value="best" />
+					<param name="bgcolor" value="#ffffff" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="transparent" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+		  		</div>
+        	</div>
+    	</div>
+    	<div class="clearfix"></div>
+    	<br/>
+		<!-- FOOTER -->
+		<div id="footer-wrapper-Index">
+			<div id="footer" class="container_12">
+				<div class="grid_2">
+					<a href="pedido_informacao.php"><img src="imagens/footer/proposta_.png" alt="proposta" onmouseover="this.src='imagens/footer/proposta_blue2.png'" onmouseout="this.src='imagens/footer/proposta_.png'"/></a>
+				</div>
+				<div class="grid_2">
+					<img src="imagens/footer/callus.png" alt="call us" />
+				</div>
+				<div class="grid_2">
+			  		<img src="imagens/footer/empresa_.png" alt="empresa" />
+				</div>
+		 		<div class="grid_1">
+			    	<a href="http://www.sgs.com/certifiedclients" target="_blank"><img src="imagens/footer/sgs.png" alt="SGS" /></a>
+				</div>
+			
+			    <!--Paste this code on the bottom of your page-->
+			    <div id="mail" class="grid_3">
+				    <blockquote>Subscrever Newsletter<img src="imagens/footer/mail.png" alt="Mail" class="mail"/></blockquote>
+				    <input type="email" name="email" value="e-mail"/>
+				    <span class="submit"><input type="image" src="imagens/footer/submit.png"/></span>
+			</div>	
+		</div>
+	</div>
+    </body>
+</html>

@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin: 0px;
+ 	background-color:#b5d7d7;
+	background-image:url(Imagens/fundo.png);
+	background-repeat:repeat-x;
+}
+
+#top
+{
+	width:100%;
+	height:100px;
+	/*height:140px;
+	background-image:url(Imagens/top.png);
+	background-repeat:repeat-x;*/
+}
+
+#banner
+{
+	width:900px;
+	height:100px;
+	margin: auto;
+}
+
+#container
+{
+	margin: auto;
+	background-color:#FFF;
+	width:900px;
+	height:auto;
+	/*border: 1px solid #333333;*/
+}
+
+#menu
+{
+	background-color: #ccccff;
+	background-image:url(Imagens/fundoMenuOp.png);
+	background-repeat:repeat-x;
+	width:898px;
+	height:40px;
+	margin-top:-4px;
+	/*margin:1px auto;*/
+	border: 1px solid #fff;
+}
+
+#menu_secundario {
+	width:100%;
+	height:auto;	
+}
+
+#menu_secundario a {
+	color: #000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	text-decoration:none;
+	padding: 5px;
+}
+
+.linguas
+{
+	float:right;
+	width:auto;
+	height:auto;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+#corpo
+{
+	width: 650px;
+	height:auto;
+	float:left;
+	margin:0px;
+	
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #333333;
+}
+
+#esquerda
+{
+	width: 249px;
+	height:auto;
+	float:right;
+	margin:0px;
+}
+
+#footer
+{
+	background-color:#333333;
+	width:900px;
+	height:30px;
+	margin:auto;
+	clear:both;
+	/*border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #333333;*/
+}
+
+#menuPosition
+{
+	margin-top:9px;
+}
+
+a:link.Menu, a:visited.Menu {
+	color: #000;
+	background-color:#336666;
+	background-image:url(Imagens/fundoMenuOp.png);
+	background-repeat:repeat-x;
+	text-decoration: none;
+	padding-top:12px;
+	padding-right:15px;
+	padding-bottom:12px;
+	padding-left:15px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+	font-weight: bold;
+}
+
+
+a:hover.Menu, a:active.Menu {
+	background-color:#FFF;/*#3e3d3d;*/
+	background-image:url(Imagens/FundoOpSelect.png);
+	background-repeat:repeat-x;
+	margin-top:10px;
+	color:#FFF;
+
+	padding-top:12px;
+	padding-right:15px;
+	padding-bottom:12px;
+	padding-left:15px;
+
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+	font-weight: bold;
+}
+
+img 
+{
+	border-style: none;
+	padding:0px;
+	margin:0px;
+}
+
+.logotipo
+{
+	margin: 16px;
+}
+
+#footer a:link , #footer a:visited {
+	color:#FFF;
+	text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 7px;
+}
+
+
+#footer a:hover , #footer a:active {
+	color:#FFF;
+	text-decoration:underline;
+
+	padding: 0px;
+	
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 9px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 7px;
+}
+
+#pubwraper{
+	margin-bottom:5px;
+	width:900px;
+	height:200px;
+	/*background-color:#FFF;*/
+}
+
+#login{
+	width:250px;
+	height:200px;
+	margin-top: -205px;
+	margin-right: 0px;
+	margin-left: 650px;
+	background-color:#CCC;
+}
+
+#pais {
+	width: 100px;
+	height: 20px;
+	background-color:#999;
+	float: right;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+
+#pais img {
+	border-style: none;
+}
+
+h1 {
+	font-family:"Lucida Grande",Helvetica,"Arial Unicode MS","Arial Unicode",Arial,sans-serif;
+	color:#000;
+	font-size:18px;
+	padding:0 10px;
+}
+
+h2 {
+	font-family:"Lucida Grande",Helvetica,"Arial Unicode MS","Arial Unicode",Arial,sans-serif;
+	color:#000;
+	font-size:15px;
+	padding:0 10px;
+}
+
+
+p {
+	font-family:"Lucida Grande",Helvetica,"Arial Unicode MS","Arial Unicode",Arial,sans-serif;
+	color:#333;
+	font-size:12px;
+	padding-top:0px;
+	padding-left:10px;
+	line-height: 20px;
+}
+
+/* Estilo para as Noticias no index.php*/
+
+#caixanoticias {
+	width:98%;
+	height:auto;
+	margin:5px;
+	padding:0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+
+#caixanoticias a{
+	text-decoration: none;
+}
+
+
+/*#pub
+{
+	position: relative;
+	float:left;
+	margin:0px;
+	width:640px;
+	height:200px;
+	background-color:#066;
+}
+
+#login
+{
+	position: relative;
+	background-image:url(Imagens/loginBox.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	float:right;
+	width:200px;
+	height:250px;
+	margin-top:0px;
+	margin-right:25px;
+}
+*/

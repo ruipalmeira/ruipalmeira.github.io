@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="pt">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+    <title>Atlanticare - Serviços de Saúde S.A.</title>
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="css/960.css" type="text/css" />
+	<!--<link rel="stylesheet" href="css/text.css" type="text/css" />-->
+	<link rel="stylesheet" href="css/style_1.css" type="text/css" />	
+    <script type="text/javascript">
+			function clearDefault(el) {
+			if (el.defaultValue==el.value) el.value = ""
+		}
+	
+		function returnMe(formfield){
+			if (formfield.value=="")
+				formfield.value = formfield.defaultValue
+		} 
+
+		function getCurrentLinkFrom(links){
+
+	    var curPage = document.URL;
+	    curPage = curPage.substr(curPage.lastIndexOf("/")) ;
+
+	    links.each(function(){
+	        var linkPage = $(this).attr("href");
+	        linkPage = linkPage.substr(linkPage.lastIndexOf("/"));
+	        if (curPage == linkPage){
+	            return $(this);
+	        }
+	    });
+	    $(document).ready(function(){
+	    var currentLink = getCurrentLinkFrom($("navbar a"));
+	    currentLink.addClass("current_link");
+		});
+		}
+	</script>
+</head>
+<body>
+	<div id="container" class="container_12">
+		<div id="header" class="grid_12">
+			<div id="logo_header"><a href="index.html"><img src="imagens/header/logo.png" alt="Atlanticare" /></a>
+				<div id="textHeader">Inovação em Serviços de Segurança<div>e Saúde no Trabalho</div></div>
+				<div id="areaReservada">
+    				<a href="http://careview.atlanticare.pt/ext/default.asp" target="_blank"><div id="botao_areaReservada"><p>Área Reservada</p>
+    				<img src="imagens/header/cadeado.png"/></div></a>
+    				<br>
+    				<a href="resultados_pesquisa.html"><div id="botao_areaReservada"><p style="margin-right: 27px;">Pesquisar</p>
+    					<img style="width: 14px; height:14px; margin-top: 4px;" src="imagens/header/lupa.png"/></div></a>
+    			</div>		
+			</div>
+		</div>	
+	</div>
+
+	<div class="clearfix"></div>
+    	<div id="fundoMenu">
+		<div id="menu" class="container_12">
+				<div class="grid_12">
+					<ul id="navBar">
+					    <li><a href="index.html">HOME</a></li>
+					    <li><a href="#">ATLANTICARE</a>
+					    	<ul class="subLink">
+					    	  <li><a href="quem_somos.html">QUEM SOMOS</a></li>
+					    	  <li><a href="visaomissao.html">VISÃO E MISSÃO</a></li>
+					    	  <li><a href="politica_qualidade.html">POLÍTICA DA QUALIDADE</a></li>
+					    	</ul>
+					    </li>
+					    <li><a href="#">SERVIÇOS</a>
+							<ul class="subLink">
+			    		      <li><a href="saude_trabalho.html">SAÚDE NO TRABALHO</a></li>
+			    		      <li><a href="seguranca_trabalho.html">SEGURANÇA NO TRABALHO</a></li>
+			    		      <li><a href="ramovida.html">RAMO VIDA</a></li>
+			    		      <li><a href="checkup.html">CHECK-UP</a></li>
+			    		    </ul>
+			    		</li>
+					    <li><a href="#">CLÍNICAS ATLANTICARE</a>
+					    	<ul class="subLink">
+			    		      <li><a href="clinica_lisboa.html">CLÍNICA LISBOA</a></li>
+			    		      <li><a href="clinica_porto.html">CLÍNICA PORTO</a></li>
+			    		    </ul>
+			    		</li>
+					    <li><a href="rede_prestadores.html">REDE DE PRESTADORES</a></li>
+					    <li><a href="#">APOIO AO CLIENTE</a>
+					    	<ul class="subLink">
+			    		      <li><a href="plataforma_web.html">PLATAFORMA WEB</a></li>
+			    		      <li><a href="satisfacao_cliente.html">SATISFAÇÃO DO CLIENTE</a></li>
+			    		      <li><a href="gestor_cliente.html">GESTOR DE CLIENTE</a></li>
+			    		      <li><a href="legislacao.html">LEGISLAÇÃO ÚTIL</a></li>
+			    		      <!--<li><a href="#">PEDIDO DE INFORMAÇÕES</a></li>-->
+			    		    </ul>
+					    </li>
+					    <li><a href="noticias.php">NOTÍCIAS</a></li>
+					    <li><a href="contactos.html">CONTACTOS</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<div id="container" class="container_12">
+		  <!--CONTENT AREA-->
+		<div id="colunaEsq" class="grid_3">
+			<h2>Segurança no Trabalho</h2>
+			<br>
+			<ul>
+			    <li><a href="auditoria.html">Auditoria</a></li><div><img src="imagens/body/separador.png"/></div>
+			    <li><a href="postotrabalho.html">Avaliação de Postos de Trabalho</a></li><div><img src="imagens/body/separador.png"/></div>
+			    <li id="ativo"><a href="avaliacao_riscos.html">Avaliação Quantitativa de Riscos</a></li><div><img src="imagens/body/separador.png"/></div>
+			    <li><a href="autoprotecao.html">Medidas de Autoprotecção</a></li><div><img src="imagens/body/separador.png"/></div>
+			    <li><a href="sinalizacao.html">Planos de Sinalização</a></li><div><img src="imagens/body/separador.png"/></div>
+			    <li><a href="formacao.html">Formação</a></li><div><img src="imagens/body/separador.png"/></div>
+			    <li><a href="simulacros.html">Simulacros</a></li><div><img src="imagens/body/separador.png"/></div>
+			    <li><a href="boas_praticas.html">Manuais de Boas Práticas</a></li><div><img src="imagens/body/separador.png"/></div>
+			    <li><a href="procedimentos.html">Manuais de Procedimentos</a></li>
+			</ul>
+		</div>
+		<div id="colunaCentro" class="grid_6" align="justify"> 
+			<h1>Avaliação Quantitativa de Riscos</h1>
+			<br/>
+			<p>Consiste no processo de identificar e valorar os riscos mensuráveis, para a segurança e saúde dos trabalhadores.</p>
+			<br/><p>Através da concretização dos estudos avaliam-se as reais condições a que os Trabalhadores estão expostos:</p>
+			<br/><p>Tem como objetivo eliminar e avaliar riscos, nomeadamente:</p>
+			<ul>
+			    <li>Identificar os trabalhadores expostos</li>
+			    <li>Identificar as medidas de prevenção e proteção adequadas</li> 
+			    <li>Priorizar intervenções</li>
+			    <li>Programar atuações</li>
+			    <li>Organizar os meios necessários</li>
+			</ul>
+			<br/><p><strong>Avaliação de Iluminância</strong></p>
+			<p>A avaliação de Iluminância, mede os níveis de luz nos locais de trabalho, confronta os valores obtidos com os níveis patentes na legislação nacional e nas normas ISO 8995 e DIN 5035 e evidencia eventuais situações menos confortáveis, propondo finalmente as medidas necessárias à correção dos valores não conformes.</p>
+			<br/><p><strong>Avaliação de Exposição Pessoal ao Ruído</strong></p>
+			<p>A exposição ao ruído durante o trabalho pode ocasionar surdez de carácter irreversível.</p>
+			<p>Este tipo de ensaio, avalia a exposição pessoal diária dos trabalhadores ao ruído, bem como os níveis de pressão de pico a que os trabalhadores estão sujeitos, resultantes da laboração da empresa e tendo por base a legislação nacional, nomeadamente: Decreto-lei n.º 182/2006 de 6 de Setembro.</p>
+			<br/><p><strong>Avaliação do Ambiente Térmico e Humidade</strong></p>
+			<p>Todos sentimos que o desenvolvimento da atividade humana é fortemente condicionado pelo ambiente térmico. Na generalidade dos casos, essas condições não causam danos ao indivíduo mas, perante certas condições, consequência do seu efeito, quer cumulativo, quer de choque, podem originar problemas de saúde e diminuir a rentabilidade do trabalho.</p>
+			<br/><p><strong>Avaliação da Qualidade do Ar</strong></p>
+			<p>Através deste estudo identifica-se a presença de componentes/gases que se encontram num determinado local e num determinado momento, comparando-se posteriormente com os valores referidos na legislação. A qualidade do ar é resultado da interação entre o local, o clima, o desenho das instalações, as características técnicas de construção, os contaminantes potenciais (equipamentos, veículos), o tipo de atividades e processos no interior das instalações, as fontes exteriores envolventes e tipo de ocupantes.</p>
+			<br/><p><strong>Vibrações</strong></p>
+			<p>Agentes físicos nocivos que afetam os trabalhadores e que podem ser provenientes das máquinas ou ferramentas portáteis a motor ou resultantes dos postos de trabalho. As vibrações encontram-se presentes em quase todas as atividades, nomeadamente em construção e obras públicas, indústrias extrativas, exploração florestal, fundições e transportes. (fonte DL n.º 46/2006, de 24 de Fevereiro).</p>
+			<br/><p><strong>Radiações</strong></p>
+			<p>Radiação significa a propagação de energia de um ponto a outro no espaço ou em um meio material, com uma certa velocidade.</p>
+			<br/><p>A radiação eletromagnética caracteriza-se pela oscilação entre um campo elétrico e um campo magnético e está classificada de acordo com a frequência de ondas, sendo as mais conhecidas: ondas hertzianas (de rádio ou TV), microndas, radiação infravermelha, ultravioleta, raios X e raios gama.</p>
+			<br/><p>Dependendo da quantidade de energia, a radiação pode ser ionizante (alto nível de energia) ou não-ionizante (baixa energia).</p>
+			<br/><p>A radiação ionizante tem inúmeras aplicações na vida humana: medicina nuclear (radioterapia), exames de diagnósticos (raio X), indústria bélica, conservação de alimentos, agricultura, entre outras.</p>
+			<br/><p>As radiações não ionizantes, são as que não possuem energia suficiente para ionizar os átomos e as moléculas com as quais interagem, sendo as mais conhecidas:</p>
+			<ul>
+			    <li>Luz visível</li>
+			    <li>Infravermelhos</li>
+			    <li>Ultravioletas</li>
+			    <li>Micro-ondas de aquecimento</li>
+			    <li>Micro-ondas de radio telecomunicações</li>
+			    <li>Corrente elétrica</li>
+			</ul><br />
+			<p>Qualquer radiação pode ser prejudicial à saúde, tendo em conta o tempo de exposição e a intensidade da radiação. Contudo, a exposição inadequada às radiações ionizantes pode causar graves danos à saúde das pessoas ou dos animais.</p>
+        </div>
+
+
+    	<div id="colunaDir" class="grid_3">
+	  		<div id"banners_DIREITA">
+	  			<img src="imagens/conteudos/menu_segurancatrabalho.jpg" />
+	  		</div>
+    	</div>
+	</div>
+	<div class="clearfix"></div>
+	<br/>
+	<!-- FOOTER -->
+	<div id="footer-wrapper">
+		<div id="footer" class="container_12">
+			<div class="grid_2">
+				<a href="pedido_informacao.php"><img src="imagens/footer/proposta_.png" alt="proposta" onmouseover="this.src='imagens/footer/proposta_blue2.png'" onmouseout="this.src='imagens/footer/proposta_.png'"/></a>
+			</div>
+			<div class="grid_2">
+				<img src="imagens/footer/callus.png" alt="call us" />
+			</div>
+			<div class="grid_2">
+			  	<img src="imagens/footer/empresa_.png" alt="empresa" />
+			</div>
+		 	<div class="grid_1">
+			    <a href="http://www.sgs.com/certifiedclients" target="_blank"> <img src="imagens/footer/sgs.png" alt="SGS" /></a>
+			</div>
+			<div id="mail" class="grid_3">
+			    <blockquote>Subscrever Newsletter<img src="imagens/footer/mail.png" alt="Mail" class="mail"/></blockquote>
+			    <input type="email" name="email" value="e-mail"/>
+			    <span class="submit"><input type="image" src="imagens/footer/submit.png"/></span>
+			</div>				
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+#logingeral {
+	height: 220px;
+	width: 300px;
+	left: 50%;
+	background-color: #0099FF;
+	position: absolute;
+	margin-left: -150px;
+	border: 1px solid #d2d2d2;
+}
+
+body {
+	background-color:#6699ff;
+	margin-top: 50px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+#titulologin {
+	height: 46px;
+	width: 292px;
+	background-color: #0066FF;
+	margin-left: 3px;
+	margin-top: 3px;
+	border: 1px solid #93cced;
+	font-family: "Trebuchet MS", arial, Verdana;
+	font-size: 26px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+#rodape {
+	height: 15px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	background-image: url(bg.gif);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0066FF;
+	text-align: right;
+}
+
+#form {
+	height: 100px;
+	width: 292px;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+#fromcampos {
+	height: 108px;
+	width: 100px;
+	left: 50%;
+	position: relative;
+	margin-left: -50px;
+	margin-top: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 11px;
+}
+
+#smserro {
+	height: 30px;
+	width: 292px;
+	margin-top: 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #993300;
+	text-align: center;
+}
+
+form.login {
+ background-color: #FFFFCC; 
+width:380px;
+font: 11px Verdana, sans-serif;
+color: #003399;
+border: 2px solid #0000FF;
+padding-left:10px;
+}
+
+.campos {
+background-color:#B0E0E6;
+font: 11px georgia, sans-serif;
+color:#0033CC;
+margin-right: 20px;
+}
+
+.submitfrom {
+	background-color: #0066FF;
+	height: 18px;
+	width: 60px;
+	border: 1px solid #2D83B3;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+/*Propriedades Links*/
+a:link, a:visited {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+a:hover, a:active {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.texto {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-style: normal;
+	line-height: 20px;
+	text-align: left;
+}
+
+/*
+**
+**Codigo para páginas internas
+**
+*/
+
+#container
+{
+	height: auto;
+	min-height: 500px;
+	width: 900px;
+	margin: auto;
+	background-image: url(Imagens/ContainerBody.png);
+	background-repeat: repeat-y;
+}
+/*
+**
+**Imagens de fundo
+**
+*/
+
+#container-top
+{
+	height: 10px;
+	width: 900px;
+	background-image: url(Imagens/ContainerTop.png);
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+#container-bottom
+{
+	height: 10px;
+	width: 900px;
+	background-image: url(Imagens/ContainerBottom.png);
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+#menu
+{
+	height: auto;
+	width: 225px;
+	margin: 5;
+	float: left;
+	background-color:#6699ff;
+}
+

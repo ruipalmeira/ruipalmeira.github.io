@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="pt">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+    <title>Atlanticare - Serviços de Saúde S.A.</title>
+    
+    	<!-- Arquivos utilizados pelo jQuery lightBox plugin -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+		<script src="prettyPhoto/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+    	<!-- / fim dos arquivos utilizados pelo jQuery lightBox plugin -->
+		<!-- Ativando o jQuery lightBox plugin -->
+    	<script type="text/javascript" charset="utf-8">
+			$(document).ready(function(){
+				$("area[rel^='prettyPhoto']").prettyPhoto();
+				
+				$(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'dark_rounded',slideshow:3000, autoplay_slideshow: false});
+				$(".gallery:gt(0) a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'fast',slideshow:10000, hideflash: true});
+		
+				$("#custom_content a[rel^='prettyPhoto']:first").prettyPhoto({
+					custom_markup: '<div id="map_canvas" style="width:260px; height:265px"></div>',
+					changepicturecallback: function(){ initialize(); }
+				});
+
+				$("#custom_content a[rel^='prettyPhoto']:last").prettyPhoto({
+					custom_markup: '<div id="bsap_1259344" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div><div id="bsap_1237859" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6" style="height:260px"></div><div id="bsap_1251710" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div>',
+					changepicturecallback: function(){ _bsap.exec(); }
+				});
+			});
+		</script>
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="css/960.css" type="text/css" />
+<!--<link rel="stylesheet" href="css/text.css" type="text/css" />-->
+	<link rel="stylesheet" href="css/style_1.css" type="text/css" />	
+    <script type="text/javascript">
+			function clearDefault(el) {
+			if (el.defaultValue==el.value) el.value = ""
+		}
+	
+		function returnMe(formfield){
+			if (formfield.value=="")
+				formfield.value = formfield.defaultValue
+		} 
+	</script> 
+</head>
+<body>
+	<div id="container" class="container_12">
+		<div id="header" class="grid_12">
+			<div id="logo_header"><a href="index.html"><img src="imagens/header/logo.png" alt="Atlanticare" /></a>
+				<div id="textHeader">Inovação em Serviços de Segurança<div>e Saúde no Trabalho</div></div>
+				<div id="areaReservada">
+    				<a href="http://careview.atlanticare.pt/ext/default.asp"><div id="botao_areaReservada"><p>Área Reservada</p>
+    				<img src="imagens/header/cadeado.png"/></div></a><br>
+    				<a href="resultados_pesquisa.html"><div id="botao_areaReservada"><p style="margin-right: 27px;">Pesquisar</p>
+    					<img style="width: 14px; height:14px; margin-top: 4px;" src="imagens/header/lupa.png"/></div></a>
+    			</div>		
+			</div>
+		</div>	
+	</div>
+
+	<div class="clearfix"></div>
+
+    	<div id="fundoMenu">
+		<div id="menu" class="container_12">
+				<div class="grid_12">
+					<ul id="navBar">
+					    <li><a href="index.html">HOME</a></li>
+					    <li><a href="#">ATLANTICARE</a>
+					    	<ul class="subLink">
+					    	  <li><a href="quem_somos.html">QUEM SOMOS</a></li>
+					    	  <li><a href="visaomissao.html">VISÃO E MISSÃO</a></li>
+					    	  <li><a href="politica_qualidade.html">POLÍTICA DA QUALIDADE</a></li>
+					    	</ul>
+					    </li>
+					    <li><a href="#">SERVIÇOS</a>
+							<ul class="subLink">
+			    		      <li><a href="saude_trabalho.html">SAÚDE NO TRABALHO</a></li>
+			    		      <li><a href="seguranca_trabalho.html">SEGURANÇA NO TRABALHO</a></li>
+			    		      <li><a href="ramovida.html">RAMO VIDA</a></li>
+			    		      <li><a href="checkup.html">CHECK-UP</a></li>
+			    		    </ul>
+			    		</li>
+					    <li><a href="#">CLÍNICAS ATLANTICARE</a>
+					    	<ul class="subLink">
+			    		      <li><a href="clinica_lisboa.html">CLÍNICA LISBOA</a></li>
+			    		      <li><a href="clinica_porto.html">CLÍNICA PORTO</a></li>
+			    		    </ul>
+			    		</li>
+					    <li><a href="rede_prestadores.html">REDE DE PRESTADORES</a></li>
+					    <li><a href="#">APOIO AO CLIENTE</a>
+					    	<ul class="subLink">
+			    		      <li><a href="plataforma_web.html">PLATAFORMA WEB</a></li>
+			    		      <li><a href="satisfacao_cliente.html">SATISFAÇÃO DO CLIENTE</a></li>
+			    		      <li><a href="gestor_cliente.html">GESTOR DE CLIENTE</a></li>
+			    		      <li><a href="legislacao.html">LEGISLAÇÃO ÚTIL</a></li>
+			    		      <!--<li><a href="#">PEDIDO DE INFORMAÇÕES</a></li>-->
+			    		    </ul>
+					    </li>
+					    <li><a href="noticias.php">NOTÍCIAS</a></li>
+					    <li><a href="contactos.html">CONTACTOS</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	<div id="container" class="container_12" align="justify">
+		  <!--CONTENT AREA-->
+		<div id="colunaEsq" class="grid_3">
+			<h2>Clínicas Atlanticare</h2>
+			<br/>
+			<ul>
+			    <li id="ativo"><a href="clinica_lisboa.html">Clínica Lisboa</a></li><div><img src="imagens/body/separador.png"/></div>
+			    <li><a href="clinica_porto.html">Clínica Porto</a></li>    
+			</ul>
+		</div>
+		<div id="colunaCentro" class="grid_5" align="justify">
+			<h1>Clínica Atlanticare Lisboa</h1>
+			<br/>
+			<p>CAMPO GRANDE 54 - A - 1700-093 - LISBOA</p>
+			<br/>
+			<p><a href="contactos.html">Ver Mapa</a></p>
+		</div>
+    	<div id="colunaDir" class="grid_4">
+	  		<div id"banners_DIREITA">
+	  			<ul class="gallery clearfix">
+	  				<table>
+	  					<td>
+					<li><a href="imagens/conteudos/Lisboa/1.JPG" rel="prettyPhoto[gallery1]"><img src="imagens/conteudos/Lisboa/1_thumb.JPG" width="95" height="95" alt="" /></a></li>
+					<li><a href="imagens/conteudos/Lisboa/2.JPG" rel="prettyPhoto[gallery1]"><img src="imagens/conteudos/Lisboa/2_thumb.JPG" width="95" height="95" alt="" /></a></li>
+					<li><a href="imagens/conteudos/Lisboa/3.JPG" rel="prettyPhoto[gallery1]"><img src="imagens/conteudos/Lisboa/3_thumb.JPG" width="95" height="95" alt="" /></a></li>
+					</td>
+					<td>
+					<li><a href="imagens/conteudos/Lisboa/4.JPG" rel="prettyPhoto[gallery1]"><img src="imagens/conteudos/Lisboa/4_thumb.JPG" width="95" height="95" alt="" /></a></li>
+					<li><a href="imagens/conteudos/Lisboa/5.JPG" rel="prettyPhoto[gallery1]"><img src="imagens/conteudos/Lisboa/5_thumb.JPG" width="95" height="95" alt="" /></a></li>
+					<li><a href="imagens/conteudos/Lisboa/6.JPG" rel="prettyPhoto[gallery1]"><img src="imagens/conteudos/Lisboa/6_thumb.JPG" width="95" height="95" alt="" /></a></li>
+					</td>
+					<td>
+					<li><a href="imagens/conteudos/Lisboa/7.JPG" rel="prettyPhoto[gallery1]"><img src="imagens/conteudos/Lisboa/7_thumb.JPG" width="95" height="95" alt="" /></a></li>
+					<li><a href="imagens/conteudos/Lisboa/8.JPG" rel="prettyPhoto[gallery1]"><img src="imagens/conteudos/Lisboa/8_thumb.JPG" width="95" height="95" alt="" /></a></li>
+					<li><a href="imagens/conteudos/Lisboa/9.JPG" rel="prettyPhoto[gallery1]"><img src="imagens/conteudos/Lisboa/9_thumb.JPG" width="95" height="95" alt="" /></a></li>
+					</td>
+					</table>
+				</ul>
+	  		</div>
+    	</div>
+	</div>
+	<div class="clearfix"></div>
+	<br/>
+	<!-- FOOTER -->
+	<div id="footer-wrapper">
+		<div id="footer" class="container_12">
+			<div class="grid_2">
+				<a href="pedido_informacao.php"><img src="imagens/footer/proposta_.png" alt="proposta" onmouseover="this.src='imagens/footer/proposta_blue2.png'" onmouseout="this.src='imagens/footer/proposta_.png'"/></a>
+			</div>
+			<div class="grid_2">
+				<img src="imagens/footer/callus.png" alt="call us" />
+			</div>
+			<div class="grid_2">
+			  	<img src="imagens/footer/empresa_.png" alt="empresa" />
+			</div>
+		 	<div class="grid_1">
+			    <a href="http://www.sgs.com/certifiedclients" target="_blank"> <img src="imagens/footer/sgs.png" alt="SGS" /></a>
+			</div>
+			<div id="mail" class="grid_3">
+			    <blockquote>Subscrever Newsletter<img src="imagens/footer/mail.png" alt="Mail" class="mail"/></blockquote>
+			    <input type="email" name="email" value="e-mail"/>
+			    <span class="submit"><input type="image" src="imagens/footer/submit.png"/></span>
+			</div>				
+		</div>
+	</div>
+</body>
+</html>
